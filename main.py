@@ -1,1 +1,10 @@
-
+print("Program starting.")
+print("")
+hex_color = input("Insert a hex color: ")
+print("")
+print(f"Colors")
+print(f"- Red {hex_color[1:3]}")
+print(f"- Green {hex_color[3:5]}")
+print(f"- Blue {hex_color[5:7]}")
+print("")
+print("Program ending.")
